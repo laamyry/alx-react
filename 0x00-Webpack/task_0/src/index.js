@@ -1,4 +1,3 @@
-#!/usr/bin/node
 import jquery from "jquery";
 
 $("body").append("<p>Holberton Dashboard</p>");
