@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^8.1.0",
+    "jquery": "^3.7.1"
+  }
+}
