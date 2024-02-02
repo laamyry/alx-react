@@ -9,10 +9,10 @@ $('body').append('<p>Holberton Dashboard</p>'),
   $('body').append('<p>Copyright - Holberton School</p>');
 
 const updateCounter = () => {
-  let counter = $('#count').html() || 0;
+  let count = $('#count').html() || 0;
   $('button').on('click', () => {
-    counter++;
-    $('#count').html(`${counter} clicks on the button`);
+    count++;
+    $('#count').html(`${count} clicks on the button`);
   });
 };
 
