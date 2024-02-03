@@ -1,6 +1,6 @@
-import "./body.css";
-const $ = require("jquery");
-const _ = require("lodash");
+import $ from "jquery";
+import _ from "lodash";
+import "../body/body.css";
 
 $("body").append("<button>Click here to get started</button>");
 $("body").append('<p id="count"><p>');
