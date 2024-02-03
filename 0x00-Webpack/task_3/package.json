@@ -12,18 +12,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^5.2.7",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.10.0",
     "file-loader": "^6.2.0",
-    "image-webpack-loader": "^7.0.1",
+    "html-webpack-plugin": "^5.6.0",
+    "image-webpack-loader": "^8.1.0",
     "style-loader": "^3.3.4",
     "webpack": "^5.90.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "html-webpack-plugin": "^5.6.0",
     "jquery": "^3.7.1",
-    "lodash": "^4.17.21",
-    "webpack-dev-server": "^4.15.1"
+    "lodash": "^4.17.21"
   }
 }
