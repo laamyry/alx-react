@@ -8,18 +8,17 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "homepage": "https://laamyry.github.io/0x01-react_intro/task_4/dashboard"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build -s specific-directory"
+    "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://laamyry.github.io/task_4",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -39,9 +38,6 @@
     ]
   },
   "devDependencies": {
-    "@cfaester/enzyme-adapter-react-18": "^0.7.1",
     "gh-pages": "^6.1.1"
   }
 }
-
-
