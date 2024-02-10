@@ -16,7 +16,15 @@ export default function Notifications() {
       </ul>
       <button
         id="closeBtn"
-        style={{ float: "right", ariaLabel: "Close" }}
+        style={{
+          position: "absolute",
+          right: "24px",
+          top: "24px",
+          ariaLabel: "Close",
+          cursor: "pointer",
+          background: "none",
+          border: "none",
+        }}
         onClick={(e) => console.log("Close button has been clicked")}
       >
         <img id="iconClose" src={closeIcon} alt="closeIcon"></img>
