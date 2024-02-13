@@ -1,0 +1,18 @@
+.Notifications {
+  width: 98%;
+  margin: 0 auto;
+  border: 0.2rem solid #e1344b;
+  padding: 10px;
+  border-style: dashed;
+}
+[data-priority="default"] {
+  color: blue;
+}
+[data-priority="urgent"] {
+  color: red;
+}
+
+#iconClose {
+  width: 15px;
+  height: 15px;
+}
