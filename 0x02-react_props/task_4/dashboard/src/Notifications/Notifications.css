@@ -1,0 +1,22 @@
+.Notifications {
+  width: 98%;
+  margin: 0 auto;
+  border: 0.2rem solid #e1344b;
+  padding: 10px;
+  border-style: dashed;
+}
+[data-notification-type|="default"] {
+  color: blue;
+}
+[data-notification-type|="urgent"] {
+  color: red;
+}
+.Notifications button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+#iconClose {
+  width: 10px;
+  height: 10px;
+}

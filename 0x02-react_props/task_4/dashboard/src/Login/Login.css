@@ -1,0 +1,19 @@
+.App-Login {
+  font-size: 1rem;
+  padding: 2em;
+
+}
+
+form input {
+  margin: 10px;
+}
+#okBtn {
+  margin: 5px;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 1px #696969;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
