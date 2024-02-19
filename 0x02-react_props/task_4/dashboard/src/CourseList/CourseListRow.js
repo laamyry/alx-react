@@ -1,30 +1,26 @@
 import React from "react";
 
-import prototype from  "prop-types";
+import prototype from "prop-types";
 
-export default function CourseListRow({
-  isHeader = false,
-  textFirstCell,
-  textSecondCell = null,
-}) {
-  if (!isHeader) {
+export default function CourseListRow({ isHeader = false, textFirstCell, textSecondCell = null }) {
+  if (isHeader) {
+    if (textSecondCell === null) {
+      return <tr><th colSpan="2">{textFirstCell}</th></tr>;
+    } else {
+      return (
+        <tr>
+          <th>{textFirstCell}</th>
+          <th>{textSecondCell}</th>
+        </tr>
+      );
+    }
+  } else {
     return (
       <tr>
         <td>{textFirstCell}</td>
         <td>{textSecondCell}</td>
       </tr>
     );
-  } else {
-    if (textSecondCell === null) {
-      return <th colSpan="2">{textFirstCell}</th>;
-    } else {
-      return (
-        <>
-          <th>{textFirstCell}</th>
-          <th>{textSecondCell}</th>
-        </>
-      );
-    }
   }
 }
 CourseListRow.prototype = {

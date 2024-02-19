@@ -1,1 +1,21 @@
-/* hello */
+table {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #c5c5c5;
+  margin-top: 3rem;
+}
+
+th {
+  border-bottom: 2px solid #c5c5c5;
+  text-align: left;
+  padding: 0.2rem;
+}
+
+th[colspan="2"] {
+  text-align: center;
+  padding: 0.5rem;
+}
+td {
+  padding: 0.35rem;
+  font-weight: 700;
+}

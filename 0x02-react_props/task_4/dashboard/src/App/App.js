@@ -6,13 +6,13 @@ import Footer from "../Footer/Footer";
 import Login from "../Login/Login";
 import CourseList from "../CourseList/CourseList";
 import proptypes from "prop-types";
-function App({ isLoggedIn = false }) {
+function App({ isLoggedIn }) {
   return (
     <React.Fragment>
       <Notifications />
       <div className="App">
         <Header />
-        {!isLoggedIn ? <Login /> : <CourseList />}
+        {!isLoggedIn ? <CourseList /> : <Login />}
         <Footer />
       </div>
     </React.Fragment>
