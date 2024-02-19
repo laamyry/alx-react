@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.9",
+    "chai": "^5.1.0",
     "enzyme-adapter-react-16": "^1.15.8",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"

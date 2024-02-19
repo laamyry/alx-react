@@ -12,7 +12,7 @@ function App({ isLoggedIn }) {
       <Notifications />
       <div className="App">
         <Header />
-        {!isLoggedIn ? <CourseList /> : <Login />}
+        {!isLoggedIn ? <Login /> : <CourseList />}
         <Footer />
       </div>
     </React.Fragment>
