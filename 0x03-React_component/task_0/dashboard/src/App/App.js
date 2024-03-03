@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 import Login from "../Login/Login";
 import CourseList from "../CourseList/CourseList";
 import { getLatestNotification } from "../utils/utils";
-import proptypes from "prop-types";
+import PropTypes from "prop-types";
 class App extends React.Component {
   static listOfCourses = [
     { id: 1, name: "ES6", credit: 60 },
@@ -41,6 +41,6 @@ App.defaultProps = {
 };
 
 App.propTypes = {
-  isLoggedIn: proptypes.bool,
+  isLoggedIn: PropTypes.bool,
 };
 export default App;
