@@ -3,7 +3,7 @@ import "./CourseList.css";
 import CourseListRow from "./CourseListRow";
 export default function CourseList() {
   return (
-    <table id="CourseList" cellpadding="0" cellspacing="0">
+    <table id="CourseList" cellPadding="0" cellSpacing="0">
       <thead>
         <CourseListRow isHeader={true} textFirstCell="Available courses" />
         <CourseListRow isHeader={true} textFirstCell="Course name" textSecondCell="Credit" />
